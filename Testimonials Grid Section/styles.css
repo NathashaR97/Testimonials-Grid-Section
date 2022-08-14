@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --purple: #7541c8;
+    --lighpurple: #A775F1;
+    --grey: #49556B;
+    --balckishblue: #18202D;
+    --lightgrey: #A7ABAE;
+    --darkgrey: #5A636C;
+ }
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 12px;
+    color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, h1 {
+    color: var(--white)
+}
+
+h1 {
+    font-size: 14px;
+}
+
+.daniell-tetionial-wrapper {
+    border-radius: 15px;
+    background-color: var(--purple);
+    /* min-width: 312px;
+    max-width: 550px; */
+    max-width: 312px;
+    padding: 30px;
+}
+
+.info {
+    margin: 0px;
+}
+.quote-icon {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.quote-icon img {
+    height: 102px;
+    width: 104px;
+}
+
+.info-details {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.person-image {
+    border-radius: 100%;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.person-image img {
+    border: 2px solid var(--lighpurple);
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+}
+
+.description p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quote p {
+    color: var(--white);
+    font-size: 13px;
+}
+
+.black-text {
+    color: var(--darkgrey);
+}
+
+.each-wrapper {
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jonathan-tetionial-wrapper {
+    border-radius: 15px;
+    background-color: var(--grey);
+    /* min-width: 312px;
+    max-width: 550px; */
+    max-width: 312px;
+    padding: 30px;
+}
+
+.janette-tetionial-wrapper,
+.kira-tetionial-wrapper {
+    border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.17);
+    /* min-width: 312px;
+    max-width: 550px; */
+    max-width: 312px;
+    padding: 30px;
+}
+
+.description .des {
+    color: var(--balckishblue);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quote .qt {
+    color: var(--balckishblue);
+    font-size: 13px;
+}
+
+.patrick-tetionial-wrapper {
+    border-radius: 15px;
+    background-color: var(--balckishblue);
+    /* min-width: 312px;
+    max-width: 550px; */
+    max-width: 312px;
+    padding: 30px;
+}
+
+.parent-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px){
+    .parent-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .first-row,
+    .second-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .patrick-tetionial-wrapper {
+        max-width: 250
+    } 
+    .daniell-tetionial-wrapper,
+    .patrick-tetionial-wrapper 
+    {
+        max-width: 550px;
+        width:550px
+    }
+    .quote-icon {
+        left: 700px
+    }
+}
