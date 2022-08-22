@@ -2,7 +2,7 @@
 
 ## Welcome! 👋 Thanks for checking out thing Challenge
 
-[Frontend Metor Link] (https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+[Frontend Metor Link] (https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
 
 Your challenge is to build out this preview card component and get it looking as close to the design as possible. Your users should be able to:
 View the optimal layout depending on their device's screen size (Responsive)
